@@ -1,0 +1,55 @@
+body {
+  background-color: #badbff;
+  background-size: 1300px;
+}
+
+#titre {
+  font-family: serif;
+  background: #0066cc none;
+  color: white;
+  border: 3px dotted #9999ff;
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
+.myButton {
+  background-color: blue;
+  border-radius: 28px;
+  color: #ffffff;
+  font-family: arial;
+  padding: 16px 31px;
+  margin-left: 1000px;
+  margin-bottom: 1000px;
+  bottom: 250px;
+}
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+.input {
+  width: 350px;
+  height: 30px;
+}
+#div1 {
+  margin-left: 10px;
+  margin-top: 70px;
+}
+#legend {
+  font-size: 30px;
+  text-shadow: 6px 4px #85c226, -3px -5px 4px #fe2192, 3px -5px 4px #f7c200;
+}
+#fieldset {
+  box-shadow: inset 15px 10px 20px blue;
+  width: 650px;
+  height: 450px;
+  margin-left: 300px;
+  margin-top: 20px;
+}
+#b {
+  margin-top: 60px;
+  width: 90px;
+  height: 30px;
+}
+
+.object {
+  position: relative;
+}

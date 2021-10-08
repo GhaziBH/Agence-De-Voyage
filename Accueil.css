@@ -1,0 +1,33 @@
+body {
+  background-image: url(voyage.jpg);
+  background-repeat: no-repeat;
+  background-color: #badbff;
+  background-size: 1300px;
+}
+
+#titre {
+  font-family: serif;
+  background: #0066cc none;
+  color: white; /*  Donc on utilise une police blanche pour que le texte soit visible */
+  border: 3px dotted #9999ff; /* On encadre le titre d'un bleu clair de 3 pixels de largeur */
+  /*padding: 0.3em;   */ /* Espacement intérieur non nul pour que le texte ne colle pas à la bordure du cadre */
+  text-align: center; /* Le titre doit être centré ! */
+  /*z-index:10;*/
+}
+.myButton {
+  background-color: blue;
+  border-radius: 28px;
+  color: #ffffff;
+  font-family: arial;
+  padding: 16px 31px;
+  margin-left: 1000px;
+  margin-bottom: 1000px;
+  bottom: 250px;
+}
+.myButton:hover {
+  background-color: #5cbf2a;
+}
+#div1 {
+  margin-left: 10px;
+  margin-top: 70px;
+}

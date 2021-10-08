@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Agence de voyage</title>
+    <link rel="stylesheet" type="text/css" href="Reservation.css" />
+
+</head>
+<body>
+    <div id="axis">
+        <img class="object move-right" src="avion.png"></img>
+    </div>
+    <form>
+        <fieldset id="fieldset">
+            <legend id="legend">Veuillez réserver un voyage</legend>
+            <table>
+                <tr>
+                    <td>Nom</td>
+                    <td><input type="text" class="input" name="Nom"
+                            placeholder="Ex : Le nom doit commencer par une lettre majuscule" id="nom" required /></td>
+                </tr>
+                <tr>
+                    <td>Prénom</td>
+                    <td><input type="text" class="input" name="Prenom"
+                            placeholder="Ex : Le prénom doit commencer par une lettre majuscule" id="prenom" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Budget</td>
+                    <td><input type="text" class="input" name="Budget" id="budget"
+                            placeholder="Ex : Le budget doit etre entre 500TND et 3000TND" required /></td>
+                </tr>
+                <tr>
+                    <td>Lieu de destination</td>
+                    <td><input type="text" class="input" name="destination" placeholder="" required /></td>
+                </tr>
+                <tr>
+                    <td>vous êtes?</td>
+                    <td>
+                        <input type="radio" name="sexe1" value="Homme" id="Homme" />
+                        <label for="Homme">
+                            <font>Homme</font>
+                        </label>
+                        <input type="radio" name="sexe2" value="Femme" id="Femme" />
+                        <label for="Femme">
+                            <font>Femme</font>
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Nombre de personne</td>
+                    <td>
+                        <input type="number" class="input" name="nombre" id="nombre" size="22" maxlength="15"
+                            placeholder="Ex : Le nombre doit etre supérieur ou égal à 1" required />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Moyens de transport</td>
+                    <td>
+                        <select name="choix" class="input" required>
+                            <option value="choix1">Train</option>
+                            <option value="choix2">Bateau</option>
+                            <option value="choix3">Avion</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Valider" id="b" onClick="controle()" /></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+
+</html>
